@@ -1,0 +1,15 @@
+main
+    section
+        display: flex
+        justify-content: center
+        align-items: center
+        height: calc( 100dvh - 50px )
+        div
+            height: 80px
+            width: 80px
+            border-radius: 50%
+            background: green
+            transition: box-shadow .5s
+            &:hover
+                box-shadow: 3px 3px 3px black
+                cursor: pointer

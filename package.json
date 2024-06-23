@@ -3,5 +3,9 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@angular/cli": "^18.0.5",
+    "pip": "^0.0.1"
   }
 }
